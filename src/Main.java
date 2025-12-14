@@ -17,17 +17,8 @@ public class Main {
 
         // POSSO CHAMAR DIRETO O METODO PQ ELE É STATICO E PASSAR O OBJETO  SENDO CRIADO
         //METODO STATICO PERTENCE A CLASSE E NÃO AO OBJETO QUE FOI CRIADO
-        //Ticket.printTicket(new IngressoFamilia());
-    String nome1 = "Eliza";
-    String nome2 = "Elza";
+        Ticket.printTicket(new IngressoFamilia());
 
-        System.out.println(nome2.length());
-
-        if(nome2.length() <= 5){
-            System.out.println("Entrou "+nome1+" "+nome1.length());
-        }else {
-            System.out.println("Não");
-        }
 
     }
 }
